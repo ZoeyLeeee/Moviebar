@@ -1,0 +1,44 @@
+body{
+    background: #333;
+    margin: 0;
+    padding: 0;
+}
+div>a{
+    color: #eee;
+    font-size:28px;
+    font-weight: bold;
+    white-space:nowrap;
+}
+a>span{
+    color:#b21f2d ;
+    font-size:42px;
+    font-weight: bold;
+}
+div>a:hover{
+    color: #eee;
+    font-size:28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .active > .nav-link{
+    color: #b21f2d;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#eee;
+    font:20px bold 黑体;
+}
+.dropdown-item>a{
+    color:#333 ;
+}
+.dropdown-item>a:hover{
+    color:#b21f2d ;
+    text-decoration: none;
+}
+div>form>input{
+    padding:0.25rem 0.75rem;
+    border-radius:0.25rem;
+}
+div>form>button.btn{
+    padding: 0.25rem 0.75rem;
+    margin-left: -2px;
+}
