@@ -1,0 +1,53 @@
+body {
+    background: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: #eee;
+}
+li a{
+    color:#eee;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: none;
+    color:#b21f2d;
+}
+.container>.row{
+    border-bottom: 1px solid #5a6268;
+    padding-bottom: 1.5rem;
+}
+.row>div{
+    min-width: 155px;
+}
+.list-unstyled{
+    margin-top: 2rem;
+}
+.certificate li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+.certificate ul,.tip_off ul{
+    text-align: center;
+}
+.tip_off li{
+    margin-left:5px;
+    display: inline-block;
+}
+.tip_off ul span{
+    display: inline-block;
+    height: 12px;
+    width: 1px;
+    background-color: #5a6268;
+    margin-left: 10px;
+}
+.copy{
+    text-align: center;
+    font-size: 15px;
+    color: #5a6268 ;
+}
+.copy a{
+    color: #5a6268;
+}
