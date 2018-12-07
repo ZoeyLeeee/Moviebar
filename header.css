@@ -27,6 +27,9 @@ div>a:hover{
     color:#eee;
     font:20px bold 黑体;
 }
+.dropdown-menu{
+    z-index:10px;
+}
 .dropdown-item>a{
     color:#333 ;
 }
@@ -37,6 +40,8 @@ div>a:hover{
 div>form>input{
     padding:0.25rem 0.75rem;
     border-radius:0.25rem;
+    color:#5a6268;
+    font-size: 15px;
 }
 div>form>button.btn{
     padding: 0.25rem 0.75rem;

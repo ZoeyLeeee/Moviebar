@@ -50,4 +50,8 @@ a:hover{
 }
 .copy a{
     color: #5a6268;
+    font-size: 15px;
+}
+.copy a:hover{
+    font-size: 15px;
 }
