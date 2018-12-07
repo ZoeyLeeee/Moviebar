@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/base.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+<script>
+    $(function() {
+        $('#header').load('header.html');
+        $('#footer').load('footer.html');
+    })
+</script>
+<div id="header"></div>
+<div class="container">
+       <!--轮播图-->
+    <div id="post" class="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active"><a href="#"><img src="../images/1.jpg" alt=""></a></div>
+            <div class="carousel-item"><a href="#"><img src="../images/2.jpg" alt=""></a></div>
+            <div class="carousel-item"><a href="#"><img src="../images/3.jpg" alt=""></a></div>
+            <div class="carousel-item"><a href="#"><img src="../images/4.jpg" alt=""></a></div>
+        </div>
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#post"></li>
+            <li data-slide-to="1" data-target="#post"></li>
+            <li data-slide-to="2" data-target="#post"></li>
+            <li data-slide-to="3" data-target="#post"></li>
+        </ul>
+        <a href="#" class="carousel-control-prev" data-slide="prev" data-target="#post">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#" class="carousel-control-next" data-slide="prev" data-target="#post">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>
