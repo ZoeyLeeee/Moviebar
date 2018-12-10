@@ -1,16 +1,12 @@
-body{
-    background: #333;
-    margin: 0;
-    padding: 0;
-}
+
 div>a{
-    color: #eee;
+    color: #999;
     font-size:28px;
     font-weight: bold;
     white-space:nowrap;
 }
 a>span{
-    color:#b21f2d ;
+    color: #eee;
     font-size:42px;
     font-weight: bold;
 }
@@ -26,15 +22,33 @@ div>a:hover{
 .navbar-dark .navbar-nav .nav-link{
     color:#eee;
     font:20px bold 黑体;
+    padding: 0 !important;
 }
 .dropdown-menu{
-    z-index:10px;
+    z-index:10;
+}
+.nav-item{
+    border:1px solid #eee;
+    padding: 5px 8px;
+    margin-right: 3px;
+    border-radius: 15px;
+}
+.nav-item:hover{
+    border:1px solid #fff;
+    background-color: #fff;
+}
+.nav-item>.nav-link:hover {
+    color: #5fb9da;
+}
+.dropdown-item:hover{
+    border:1px solid #eee;
+    background-color: #eee;
 }
 .dropdown-item>a{
     color:#333 ;
 }
 .dropdown-item>a:hover{
-    color:#b21f2d ;
+    color: #5fb9da;
     text-decoration: none;
 }
 div>form>input{
@@ -46,4 +60,14 @@ div>form>input{
 div>form>button.btn{
     padding: 0.25rem 0.75rem;
     margin-left: -2px;
+}
+button.login.btn{
+    margin-left: 3em;
+    /*background-color: #fff;*/
+}
+button.login a{
+    color: #999;
+}
+button.login a:hover{
+    color: #30e1d2;
 }
